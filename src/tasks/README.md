@@ -11,7 +11,7 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
+|1| Data collection|Collect datasets from various reliable sources and merge them to form a final dataset for analysis|
 |2|         |         |
 |3|         |         |
 |4|         |         |
