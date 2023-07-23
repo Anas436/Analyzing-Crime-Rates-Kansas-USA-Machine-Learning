@@ -27,7 +27,7 @@ for i in range(len(merged_kansas_state_2007_2020.columns)):
         for row in range(len(merged_kansas_state_2007_2020.iloc[:, column])):
             #print('column number is: ', column)
             #print('number of row: ', row)
-            merged_kansas_state_2007_2020.iloc[row, column] = float(re.findall("\w*[\s\w.\s]*", str(merged_kansas_state_2007_2020.iloc[row, column]))[0])
+            merged_kansas_state_2007_2020.iloc[row, column] = float(re.findall("\w*[\s\w.\s]*", str(merged_kansas_state_2007_2020.iloc[row, column]).replace(',',''))[0])
 
     else:
         break
