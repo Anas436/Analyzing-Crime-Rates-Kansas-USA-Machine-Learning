@@ -20,7 +20,7 @@ for crime in crimes:
         crime_to_plot = pd.concat([crime_to_plot,
                                    pd.DataFrame({df.iloc[row, -1]: df.iloc[row, 1:-1]})], axis=1)
     
-    print(crime_to_plot)
+    print(crime, crime_to_plot)
     sns.lineplot(crime_to_plot, linestyle='solid').set_title(crime)
 
     plt.show()

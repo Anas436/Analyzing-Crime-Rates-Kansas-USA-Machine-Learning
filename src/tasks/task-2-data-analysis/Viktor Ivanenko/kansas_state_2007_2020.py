@@ -39,7 +39,7 @@ for row in range(len(merged_kansas_state_2007_2020.iloc[:,0])):
     else:
         break
 
-merged_kansas_state_2007_2020[merged_kansas_state_2007_2020['Type'] == 'City-Data.co'] = merged_kansas_state_2007_2020[merged_kansas_state_2007_2020['Type'] == 'City-Data.co'].replace('City-Data.co', 'Total')
+merged_kansas_state_2007_2020[merged_kansas_state_2007_2020['Type'] == 'City-Data.co'] = merged_kansas_state_2007_2020[merged_kansas_state_2007_2020['Type'] == 'City-Data.co'].replace('City-Data.co', 'Crime Index')
 
 print(merged_kansas_state_2007_2020)
 
