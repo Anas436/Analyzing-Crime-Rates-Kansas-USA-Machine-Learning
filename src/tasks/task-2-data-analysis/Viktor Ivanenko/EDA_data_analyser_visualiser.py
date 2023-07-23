@@ -12,7 +12,7 @@ print(crimes)
 colors = ['red', 'green', 'blue', 'yellow', 'orange', 'gray', 'black', 'purple', 'pink', 'brown']
 
 for crime in crimes:
-    fig = plt.figure()
+    fig = plt.figure(figsize=[20, 15])
     color_index = 0
     crime_to_plot = pd.DataFrame()
     for row in df[df['Type'] == crime].index:
