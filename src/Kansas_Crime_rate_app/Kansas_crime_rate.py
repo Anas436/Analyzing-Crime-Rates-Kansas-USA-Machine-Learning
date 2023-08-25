@@ -10,11 +10,11 @@ from neuralprophet import NeuralProphet
 st.markdown('<link rel="stylesheet" href="styles.css">', unsafe_allow_html=True)
 
 # Abre el archivo comprimido
-data = pd.read_csv('data_kansas_EDA.csv.gz', compression='gzip')
+data = pd.read_csv('https://github.com/OmdenaAI/kansas-chapter-crime-rates/blob/main/src/Kansas_Crime_rate_app/data_kansas_EDA.csv.gz', compression='gzip')
 
 #image in the sidebar
-image = Image.open('Flag_of_Kansas.svg.png')
-st.sidebar.image(image, caption='Sunrise by the mountains')
+image = Image.open('kansas_flag.png')
+st.sidebar.image(image, caption='Ad astra per aspera')
 
 #title of the app
 st.sidebar.title(':blue[Kansas Crime analysis by year]')
