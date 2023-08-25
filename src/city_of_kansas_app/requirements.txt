@@ -1,0 +1,11 @@
+geopandas=0.13.2
+matplotlib-base=3.4.3
+matplotlib-inline=0.1.6
+pandas=1.5.3
+python=3.10.11
+pillow=9.0.0
+plotly=5.14.1
+plotly_express=0.4.1
+shapely=2.0.1
+streamlit=1.21.0
+
