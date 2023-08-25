@@ -1,0 +1,11 @@
+geopandas
+matplotlib-base
+matplotlib-inline
+pandas
+python
+pillow
+plotly
+plotly_express
+shapely
+streamlit
+
