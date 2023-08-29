@@ -56,6 +56,6 @@
 - Results           - Folder to store final analysis modelling results for the project.
 
 
-## Resources
+## Resource
 - Omdena Local Chapter Link [here](https://omdena.com/chapter-challenges/crime-rate-analysis-in-kansas-united-states/)
 - Omdena Github Link [here](https://github.com/OmdenaAI/kansas-chapter-crime-rates)
